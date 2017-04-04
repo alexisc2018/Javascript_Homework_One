@@ -63,7 +63,40 @@ console.log(name);
 var statement = 'my name is' + ' ' + name;
 console.log(statement);
 
-//setting greeting to hi, statement 
+//setting greeting to hi, statement
 var greeting = 'Hi,' + ' ' + statement;
 console.log(greeting);
+
+//setting function for math
+function singlesquare(a) {
+  var squared = a * a;
+  return squared;
+}
+
+//call math function
+singlesquare(4);
+console.log(16);
+
+singlesquare(3);
+console.log(9);
+
+singlesquare(5);
+console.log(25);
+
+
+//setting function for Name
+function formName(firstName, middleName, lastName) {
+  var fullName = firstName + ' ' + middleName + ' ' + lastName;
+  return fullName;
+}
+
+//call name function
+var Ann = formName('Ann', 'Grace', 'Sinclair');
+console.log(Ann);
+
+var Mary = formName('Mary', 'Frances', 'Humphrey');
+console.log(Mary);
+
+var Cory = formName('Cory', 'James', 'Reynolds');
+console.log(Cory);
 </script>
